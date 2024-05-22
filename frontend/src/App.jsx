@@ -75,6 +75,7 @@ const router = createBrowserRouter([
         element: <Checkout />,
         loader: checkoutLoader(store),
         action: checkoutAction(store, queryClient),
+        
       },
       {
         path: 'orders',
